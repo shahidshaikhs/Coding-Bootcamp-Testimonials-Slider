@@ -50,7 +50,7 @@ body {
       z-index: 2;
       order: 2;
       p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 1.5;
         max-width: 80%;
         margin: 0 auto;
@@ -115,6 +115,7 @@ body {
   bottom: 0;
   margin-bottom: -50px;
   width: 100%;
+  z-index: -1;
 }
 
 .quotes {
@@ -129,10 +130,10 @@ body {
 .pattern-bg {
   position: absolute;
   z-index: -1;
-  top: -10%;
+  top: -17%;
   left: 5%;
   height: 600px;
-  width: 450px;
+  width: 400px;
 }
 
 @media (min-width: 1024px) {
